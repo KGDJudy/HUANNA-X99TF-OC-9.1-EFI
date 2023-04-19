@@ -1,17 +1,24 @@
 # HUANNA-X99TF-OC-9.1-EFI
 配置：
-#1.主板：华南X99TF
-#2.独显：AMD 6800XT
-#3.内存：DDR4 ECC 2400HZ  32G*2
-#4.CPU：E5 2666 V3
-#5.WIFI及蓝牙：BCM 94360Z4
-#6.系统版本：Ventura 13.3.1 (22E261)
+1.主板：华南X99TF
+
+2.独显：AMD 6800XT
+
+3.内存：DDR4 ECC 2400HZ  32G*2
+
+4.CPU：E5 2666 V3
+
+5.WIFI及蓝牙：BCM 94360Z4
+
+6.系统版本：Ventura 13.3.1 (22E261)
 
 
 
 BIOS设置：
 ACPI Settings>ACPI Sleep State=S3(开启S3睡眠支持，需要的童学可以开启）
+
 CSM Configuration>CSM Support=Disabled(首先要把Boot Option Filter=UEFI Only，这里改完重启重新进BIOS才能改上一步）
+
 NCT5532D Super I0 Configuration>Restone AC Power Loss=Powen On(这个是开启来电自启功能）
 
 OC版本更新为9.1。机型有Mac Pro7,1，Mac Pro7,1的已自定义内存，能启用显示ECC，我是128G内存，内存比我大的（然后，比我小的可直接食用），可自行在Platformlnfo>Memory修改，Size（即容量）按你实际减少，总容量加起来为你实际的容量即可，Speed（即频率）按实际的填写，SeriaNumber、PartNumber、DeviceLocato这些可以随便填，也可以按你实际内存型号信息等填写，如是DDR4的，需将DataWidth改成64，Type改成26，非ECC内存的请把ErrorCorrection改成1或2（非ECC的建议改2）。我的自己修改一些装*参数，实际上没图的频率那么高，哈哈。
