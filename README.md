@@ -28,7 +28,7 @@ OC版本更新为9.1。机型有Mac Pro7,1，Mac Pro7,1的已自定义内存，�
 
 
 # 
-如不懂的怎么自定义的，请移至https://bbs.pcbeta.com/viewthread-1872987-5-1.html此大神教程。或是在Kernel里添加SystemProfilerMemoryFixup.kext。
+如不懂的怎么自定义的，请移至https://bbs.pcbeta.com/viewthread-1872987-5-1.html  此大神教程。或是在Kernel里添加SystemProfilerMemoryFixup.kext。
 
 # 
 这次WhateverGreen.kext仍是用1.5.7，不过这次的WEG版本是是LEE大神魔改的，更高的版本我就没去测试了，此EFI里有加了5000、6000系列独显的注释，同时也有单独针对6600或6600xt部分品牌卡出现显示输出口异常问题：如只有一个DP口有输出，或亮屏速度太慢等问题简单、半解决方法。
